@@ -16,7 +16,7 @@ namespace r_ctrl_c
                 e.Cancel = true; // we'll handle outselves for this demo
             };
 
-            RDotNet.REngine.GetInstance();
+            //RDotNet.REngine.GetInstance();
 
             Console.WriteLine("Started...");
             stop.WaitOne();
